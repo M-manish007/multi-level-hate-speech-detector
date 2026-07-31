@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+
+# Exclude large dataset files and models
+data/
+models/
+results/
+*.csv
+*.pt
+*.pth
+*.bin
+*.safetensors
